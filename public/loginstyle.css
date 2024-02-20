@@ -1,0 +1,58 @@
+.log{
+    margin-top: 10pc;
+    
+    text-align: center;
+    margin-left: 44pc;
+    margin-right: 44pc;
+    border: 2px solid white;
+    background-color: white;
+}
+.log img{
+    width: 100%;
+}
+.hd{
+    display: flex;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+#l1{
+    margin-right: 5px;
+}
+#l2{
+    margin-right: 5px;
+    font-weight: lighter;
+}
+.log input{
+    width: 80%;
+    padding: 10px 20px;
+}
+.log button{
+    width: 90%;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    font-size: 1pc;
+    cursor: pointer;
+}
+.log p {
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+    width:80%;
+    font-size: 0.8pc;
+    text-align: left;
+    padding-left: 19px;
+}
+.log a{
+    text-decoration: none;
+    color: red;
+}
+.log  a:hover{
+    font-weight: bold;
+}
+.log #bottom{
+    margin-bottom: 70%;
+}
+body{
+    background-color: rgb(218, 212, 204);
+}

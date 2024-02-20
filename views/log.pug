@@ -1,0 +1,60 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title  Myntra:India&apos;s No 1 Fashion Store
+  link(rel='shortcut icon' href='/public/myntra logo.jpg' type='image/x-icon')
+  link(rel='stylesheet' href='/public/style.css')
+  link(rel='stylesheet' href='/public/loginstyle.css')
+.head
+  ul
+    li.logo
+      img(src='/public/myntra logo.jpg')
+    .left
+      li
+        a(href='/men') MEN
+      li
+        a(href='/women') WOMEN
+      li
+        a(href='/kids') KIDS
+      li
+        a(href='/home') HOME&amp;LIVING
+      li
+        a(href='/beauty') BEAUTY
+      li
+        a(href='/studio') STUDIO
+      li
+        input#searchInput.search-input(type='text' placeholder='Search for products,Brands and more')
+      li.space
+    .space-pro
+    .containt
+      .pwb
+        .wimg
+          a(href='/wishlist')
+            img(src='/public/wishlist.png')
+          p Wishlist
+        .bimg
+          a(href='/bag')
+            img(src='/public/bag.png')
+          p Bag
+.log
+  img(src='/public/logdis.png')
+  br
+  .hd
+    h2#l1 Login
+    h2#l2 or
+    h2 Sighnup
+  form
+    input#phone(type='text' name='phone' placeholder='+91 |')
+    p
+      | By continuing,I agree to the 
+      span
+        a(href='/views/terms') Terms Of Use
+      |  &amp; 
+      span
+        a(href='/views/privacy') Privacy policy
+    button(type='submit') Continue
+  p#bottom
+    | Have a problem to logging in? 
+    span
+      a(href='/views/help') Get Help

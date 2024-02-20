@@ -1,0 +1,279 @@
+body{
+    width: 97%;
+}
+.head{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 8px 14px;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.head ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    padding-bottom: 5px;
+}
+.head li{
+    padding-left: 10px;
+}
+.logo img{
+    height: 3pc;
+    border-radius: 50%;
+    padding-right: 3pc;
+    margin-top: 10px;
+}
+.left li{
+    margin-top: 25px;
+    padding-right: 2pc;
+
+}
+.head a{
+    text-decoration: none;
+    color: black;
+}
+.head li input{
+    margin-left: 10pc;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+.space{
+    margin-right: 15pc;
+}
+.search-input {
+    background-image: url('search.jpg'); 
+    background-size: 3pc; /* Adjust the size of the icon */
+    background-position: 10px center; /* Adjust the position of the icon */
+    background-repeat: no-repeat;
+    padding-left: 10px; /* Add padding for the icon */
+}
+.space-pro{
+    display: flex;
+    
+}
+.space-pro li{
+    margin-top: 10px;
+}
+.space-pro li a{
+    margin-top: 10px;
+}
+.pimg img{
+    height: 2pc;
+    border-radius: 50%;
+    margin-top: 1px; 
+    cursor: pointer;
+}
+.pimg p{
+    padding-right: 6pc;
+    cursor: pointer;
+}
+.profile {
+    padding-top: 13px;
+}
+.wimg img{
+    height: 2pc;
+    border-radius: 50%;
+    margin-top: 1px; 
+    margin-right: 1pc;
+}
+.wimg p{
+    padding-right: 5pc;
+}
+.wish{
+    padding-top: 17px;
+}
+.bag{
+    padding-top: 17px;
+}
+.bimg img{
+    height: 2pc;
+    /* border-radius: 40%; */
+    margin-top: 1px; 
+}
+.bimg p{
+    padding-right: 10px;
+}
+.left{
+    display: flex;
+}
+.container img{
+    margin-top: 12pc;
+    width: 100%;
+    
+}
+.para{
+    margin-top: 5pc;
+}
+.brand{
+    display: flex;
+    margin-top: 3pc;
+    list-style: none;
+    cursor: pointer;
+}
+.m1 img{
+    height: 4%;
+    width: 300px;
+}
+.ml img{
+    margin-top: 0.5pc;
+    height:70px;
+    width: 100px;
+}
+.p1{
+    margin-top: 10px;
+    font-size: 1pc;
+}
+.pe{
+    width: 300px;
+}
+.pe_log{
+    margin-top: 2pc;
+    height: 30px;
+    width: 100px;
+}
+.p2{
+    margin-top: 1px;
+    font-size: 1pc;
+}
+.body_s{
+    margin-top: 6pc;
+    height: 10%;
+    width: 400px;
+}
+.body_log{
+    margin-top: 7pc;
+    height: 30px;
+    width: 100px;
+}
+.p3{
+    margin-top: 1px;
+    font-size: 1pc;
+}
+.levis{
+    width: 350px;
+}
+.levis_log{
+    height: 30px;
+    width: 100px;
+}
+.mango{
+    width: 330px;
+}
+.mango_log{
+    height: 30px;
+    width: 100px;
+}
+.para1{
+    margin-top: 6pc;
+}
+.brand_shoes{
+    margin-top: 4pc;
+    cursor: pointer;
+}
+.infromation{
+    display: flex;
+    margin-left: 20pc;
+    margin-top: 10pc;
+    list-style: none;
+}
+.sec1{
+    margin-right: 7pc;
+}
+.hd{
+    margin-bottom: 2pc;
+}
+.hd1{
+    margin-top: 3pc;
+    margin-bottom: 2pc;
+}
+.sec2{
+    margin-right: 7pc;
+}
+.sec3{
+    margin-right: 7pc ;
+}
+.link{
+    margin-top: 3pc;
+    display: flex;
+    width: 70%;
+}
+.link1 a{
+    cursor: pointer;
+}
+.sec4{
+    display: inline;
+    width: 15%;
+}
+.g1{
+    display: inline;
+}
+
+.g2 img{
+    max-height: fit-content;
+}
+.content-regulations{
+    width: 70%;
+    margin-left: 20pc;
+}
+.register{
+    margin-left: 20pc;
+    margin-top: 10pc;
+    display: inline-block;
+}
+.register span{
+    color: blue;
+    cursor: pointer;
+}
+.list1{
+    list-style-type: lower-alpha;
+    font-weight: bold;
+    padding-left: 3pc;
+}
+.list1 span{
+    color: black;
+    font-weight: lighter;
+}
+.list2{
+    font-weight: bold;
+    padding-left: 3pc;
+}
+.list2 p{
+    color: black;
+    font-weight: lighter;
+}
+.containt li{
+    display: flex;
+    cursor: pointer;
+}
+.pwb{
+    display: flex;
+}
+#up-down{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid white;   
+} 
+.btnl a button:hover{
+    border: 2px solid red;
+    cursor: pointer;
+}
+.btnl button{
+    color: red;
+    padding: 10px 20px;
+}
+#up-down li a:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
